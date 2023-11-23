@@ -1,0 +1,125 @@
+.anchor_pane {
+    -fx-background-color: black;
+}
+
+.db_btn {
+    -fx-background-color: #555;
+    -fx-radius: 2;
+    -fx-cursor: hand;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-text-alignment: center;
+    -fx-text-fill: #d5d5d5;
+    -fx-alignment: CENTER;
+    -fx-background-radius: 10;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+    -fx-text-fill: white;
+}
+
+.left_pane {
+    -fx-background-color: #313131;
+    -fx-pref-width: 130px;
+    -fx-pref-height: 600px;
+        -fx-text-fill: white;
+}
+
+.admin_section {
+    -fx-background-color: #000000;
+}
+
+.table_columns {
+    -fx-background-color: #171616;
+    -fx-text-fill: #e7e1e1;
+}
+
+
+.menu_bar{
+    -fx-background-color: black;
+}
+
+.menu_bar .label{
+    -fx-background-color: black;
+    -fx-font-size: 15 pt;
+        -fx-text-fill: white;
+}
+
+.menu_options .label{
+    -fx-background-color: black;
+        -fx-text-fill: white;
+
+}
+.menu_items{
+    -fx-background-color: black;
+}
+.text_field_pane {
+    -fx-background-color: #424242;
+}
+
+.text_field {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+
+
+.image_view{
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-stroke: white;
+}
+.table-view:focused .table-row-cell:selected .table-cell {
+    -fx-background-color: lightBlue;
+    -fx-text-fill: grey;
+}
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  #6622CC;
+}
+.table-view .column-header .label{
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   -fx-alignment: CENTER_LEFT;
+}
+.table-view .cell{
+   -fx-cell-size: 35;
+  -fx-alignment: center-left;
+  -fx-background-color: #444;
+  -fx-border-color: #29292D;
+  -fx-text-fill: lightgray;
+  -fx-alignment: CENTER_LEFT;
+
+}
+.table-row-cell:selected {
+   -fx-background-color: whitesmoke;
+   -fx-text-background-color:  #aa22CC;
+}
+
+/* scroll bar starts here */
+
+/* The increment and decrement button CSS class of scrollbar */
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 2em;
+
+}
+
+/* The main scrollbar **track** CSS class  */
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-border-color:derive( #6622CC,80%);
+
+	-fx-background-radius: 2em;
+	-fx-border-radius:2em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( #6622CC,90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+
+}
